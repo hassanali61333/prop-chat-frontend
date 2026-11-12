@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL;
 export const SERVER_URL = import.meta.env.VITE_SERVER_URL;
-cnsole.log('API_UR');
+s
 const api = axios.create({ baseURL: API_URL });
 
 // Attach the JWT (stored in localStorage) to every request
